@@ -63,10 +63,7 @@
 m = int(input('введите дольки длины шоколада: '))
 n = int(input('введите дольки ширины шоколада: '))
 k = int(input('количество отламываемых долек: '))
-if k == m or k == n :
-    print('-> yes')
-elif i == 1 k == n * i while (i < m) i += 1
-    print('-> yes')
-elif i == 1 k == m * i while (i < n) i += 1:
-    print('-> yes')
-else: print('-> no')
+if k < n * m and ((k % n == 0) or (k % m == 0)):
+    print('YES')
+else:
+    print('NO')
